@@ -23,11 +23,11 @@ public class CoinCollector : MonoBehaviour
 
     private void OnEnable()
     {
-        Collectible.OnCoinCollect += CollectCoin;
+        CoinPickUp.OnCoinCollect += CollectCoin;
     }
 
     private void OnDisable()
     {
-        Collectible.OnCoinCollect -= CollectCoin;
+        CoinPickUp.OnCoinCollect -= CollectCoin;
     }
 }
