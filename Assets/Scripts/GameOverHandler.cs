@@ -7,23 +7,34 @@ using UnityEngine;
 public class GameOverHandler : MonoBehaviour
 {
     public TMP_Text gameOverText;
-    private void Awake()
-    {
-        gameOverText = GetComponent<TMP_Text>();
-    }
 
-    private void ShowGameOverText()
+    private void OnGameOver()
     {
         gameOverText.enabled = true;
+        var spawner = FindObjectOfType<Spawner>();
+        var collectibles = spawner.GetComponentsInChildren<Collectible>();
+        foreach (var collectible in collectibles)
+        {
+            Destroy(collectible.gameObject);
+        }
+        spawner.enabled = false;
+
+        var playerMovement = FindObjectOfType<PlaneMovement>();
+        playerMovement.enabled = false;
+
+        var planeEnergy = FindObjectOfType<PlaneFlyEnergy>();
+        planeEnergy.DisableEnergyInvocation();
     }
 
     private void OnEnable()
     {
-        PlaneFlyEnergy.energyIsEmpty += ShowGameOverText;
+        PlaneFlyEnergy.energyIsEmpty += OnGameOver;
+        DroneCollision.onEnemyCollision += OnGameOver;
     }
 
     private void OnDisable()
     {
-        PlaneFlyEnergy.energyIsEmpty -= ShowGameOverText;
+        PlaneFlyEnergy.energyIsEmpty -= OnGameOver;
+        DroneCollision.onEnemyCollision -= OnGameOver;
     }
 }

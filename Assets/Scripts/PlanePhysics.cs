@@ -14,7 +14,7 @@ public class PlanePhysics : MonoBehaviour
 
     private void Force()
     {
-        _rigidbody2D.AddForce(Vector2.up * forceValue, ForceMode2D.Impulse);
+        _rigidbody2D.AddForce(Vector2.up * forceValue * Time.deltaTime, ForceMode2D.Impulse);
         StartCoroutine(ResetVelocity());
     }
 

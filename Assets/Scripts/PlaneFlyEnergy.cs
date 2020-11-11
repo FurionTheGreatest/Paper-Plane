@@ -9,6 +9,7 @@ public class PlaneFlyEnergy : MonoBehaviour
     public float currentEnergy;
 
     public float decreaseEnergyValue = 0.1f;
+    public float increaseEnergyValue = 20f;
     private void Start()
     {
         currentEnergy = maxEnergy;
@@ -23,14 +24,38 @@ public class PlaneFlyEnergy : MonoBehaviour
         else
         {
             currentEnergy = 0;
-            CancelInvoke(nameof(DecreaseEnergy));
-            DisablePlaneOnGameOver();
+            DisablePlaneWhenOutOfEnergy();
         }
     }
 
-    private void DisablePlaneOnGameOver()
+    private void DisablePlaneWhenOutOfEnergy()
     {
         GetComponent<PlaneMovement>().enabled = false;
+        DisableEnergyInvocation();
         energyIsEmpty?.Invoke();
+    }
+
+    private void IncreaseEnergy()
+    {
+        if (currentEnergy + increaseEnergyValue > 100)
+            currentEnergy = maxEnergy;
+        else
+            currentEnergy += increaseEnergyValue;
+        
+        changeEnergy?.Invoke(currentEnergy);
+    }
+
+    public void DisableEnergyInvocation()
+    {
+        CancelInvoke(nameof(DecreaseEnergy));
+    }
+    private void OnEnable()
+    {
+        SpeedUp.OnSpeedUpCollect += IncreaseEnergy;
+    }
+
+    private void OnDisable()
+    {
+        SpeedUp.OnSpeedUpCollect -= IncreaseEnergy;
     }
 }
