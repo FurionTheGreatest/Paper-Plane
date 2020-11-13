@@ -9,16 +9,19 @@ public class PlaneMovement : MonoBehaviour
     [SerializeField] private float forceSpeed = 8;
     private Transform _planePosition;
 
+    private float _halfOfScreenWidth;
+
     private void Start()
     {
         _planePosition = transform;
         _currentSpeed = defaultSpeed;
+        _halfOfScreenWidth = Screen.width / 2;
     }
 
     private void Update()
     {
         _planePosition.position += transform.TransformDirection(Vector3.up * (Time.deltaTime * _currentSpeed));
-
+#if UNITY_EDITOR || UNITY_STANDALONE
         if (Input.GetKey (KeyCode.A) && !Input.GetKey (KeyCode.D) && transform.position.x > -4f)
         {
             _planePosition.position += transform.TransformDirection (Vector3.left) * (Time.deltaTime * defaultSpeed);
@@ -27,6 +30,19 @@ public class PlaneMovement : MonoBehaviour
         {
             _planePosition.position -= transform.TransformDirection (Vector3.left) * (Time.deltaTime * defaultSpeed);
         }
+#endif
+        
+#if UNITY_ANDROID
+        if(!Input.touchSupported) return;
+        if (Input.touches[0].position.x - _halfOfScreenWidth <= 0 && transform.position.x > -4f)
+        {
+            _planePosition.position += transform.TransformDirection (Vector3.left) * (Time.deltaTime * defaultSpeed);
+        } 
+        else if (Input.touches[0].position.x - _halfOfScreenWidth > 0 && transform.position.x < 4f)
+        {
+            _planePosition.position -= transform.TransformDirection (Vector3.left) * (Time.deltaTime * defaultSpeed);
+        }
+#endif
     }
     
     private void Force()

@@ -23,6 +23,8 @@ public class CoinCollector : MonoBehaviour
 
     private void OnEnable()
     {
+        _coinCount = 0;
+        _coinCountText.text = _coinCount.ToString();
         CoinPickUp.OnCoinCollect += CollectCoin;
     }
 

@@ -6,11 +6,12 @@ using UnityEngine;
 
 public class GameOverHandler : MonoBehaviour
 {
-    public TMP_Text gameOverText;
+    //public TMP_Text gameOverText;
+    public GameObject gameOverMenu;
 
     private void OnGameOver()
     {
-        gameOverText.enabled = true;
+        gameOverMenu.SetActive(true);
         var spawner = FindObjectOfType<Spawner>();
         var collectibles = spawner.GetComponentsInChildren<Collectible>();
         foreach (var collectible in collectibles)
@@ -29,12 +30,12 @@ public class GameOverHandler : MonoBehaviour
     private void OnEnable()
     {
         PlaneFlyEnergy.energyIsEmpty += OnGameOver;
-        DroneCollision.onEnemyCollision += OnGameOver;
+        FlyingEnemyCollision.onEnemyCollision += OnGameOver;
     }
 
     private void OnDisable()
     {
         PlaneFlyEnergy.energyIsEmpty -= OnGameOver;
-        DroneCollision.onEnemyCollision -= OnGameOver;
+        FlyingEnemyCollision.onEnemyCollision -= OnGameOver;
     }
 }

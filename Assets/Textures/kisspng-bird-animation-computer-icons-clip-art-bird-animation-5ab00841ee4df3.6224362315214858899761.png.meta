@@ -1,0 +1,1294 @@
+fileFormatVersion: 2
+guid: 3280610dbf4920f4087e977dddc8fd91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6178219170032011974
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_0
+  - first:
+      213: -7015999833473770746
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_1
+  - first:
+      213: -1149122812570404634
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_2
+  - first:
+      213: -1030800790164548208
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_3
+  - first:
+      213: -6276365695406972939
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_4
+  - first:
+      213: 568645891272524317
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_5
+  - first:
+      213: 2025447456960820257
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_6
+  - first:
+      213: -4987895513311434323
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_7
+  - first:
+      213: 5557507501542239094
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_8
+  - first:
+      213: -114877532408243311
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_9
+  - first:
+      213: 5924116559568425420
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_10
+  - first:
+      213: 6677767448500420505
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_11
+  - first:
+      213: 6042411958475943634
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_12
+  - first:
+      213: 6113022693060019146
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_13
+  - first:
+      213: 1387161514665141462
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_14
+  - first:
+      213: -7580729319120050045
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_15
+  - first:
+      213: -1396313788046766167
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_16
+  - first:
+      213: -3714835978551565326
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_17
+  - first:
+      213: 7853976546854244836
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_18
+  - first:
+      213: 5343046470359805534
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_19
+  - first:
+      213: -1658147412336466909
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_20
+  - first:
+      213: 8618482583830161366
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_21
+  - first:
+      213: 6970440833815504925
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_22
+  - first:
+      213: -8809134840303073254
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_23
+  - first:
+      213: 5436580771005118232
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_24
+  - first:
+      213: 5736037465899453259
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_25
+  - first:
+      213: 8230282967999624812
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_26
+  - first:
+      213: 5768392707176840860
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_27
+  - first:
+      213: -354280241604457081
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_28
+  - first:
+      213: -7620822755053035136
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_29
+  - first:
+      213: -2511002963280721870
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_30
+  - first:
+      213: -5912458123198185540
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_31
+  - first:
+      213: -4526145824580021986
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_32
+  - first:
+      213: 8838975745647566143
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_33
+  - first:
+      213: 5423152597110280370
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_34
+  - first:
+      213: -1367457256115314018
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_35
+  - first:
+      213: 362024558537567486
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_36
+  - first:
+      213: -692184468911122672
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_37
+  - first:
+      213: -9111664761664768181
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_38
+  - first:
+      213: -1653112688672317528
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_39
+  - first:
+      213: 101254635795867411
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_40
+  - first:
+      213: 4983261919669369455
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_41
+  - first:
+      213: -3189151052470073166
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_42
+  - first:
+      213: 9018259686710983482
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_43
+  - first:
+      213: -5821278422754954214
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_44
+  - first:
+      213: -1409911538352159908
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_45
+  - first:
+      213: 3114184753997518652
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_46
+  - first:
+      213: -4124986143565352690
+    second: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2462
+        width: 722
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35bbb1066e824aa0800000000000000
+      internalID: -6178219170032011974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_1
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2499
+        width: 523
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b9895e25922ae90800000000000000
+      internalID: -7015999833473770746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_2
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 2517
+        width: 577
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e87179e3ee7d00f0800000000000000
+      internalID: -1149122812570404634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_3
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 2648
+        width: 560
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095dc0c842cd1b1f0800000000000000
+      internalID: -1030800790164548208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_4
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 2578
+        width: 656
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffd1d457aed5e8a0800000000000000
+      internalID: -6276365695406972939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_5
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 2536
+        width: 805
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12c840ec6c34e700800000000000000
+      internalID: 568645891272524317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_6
+      rect:
+        serializedVersion: 2
+        x: 4904
+        y: 2574
+        width: 707
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1243e571bb5db1c10800000000000000
+      internalID: 2025447456960820257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_7
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 2629
+        width: 562
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9ae48257f67cab0800000000000000
+      internalID: -4987895513311434323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_8
+      rect:
+        serializedVersion: 2
+        x: 6573
+        y: 2555
+        width: 580
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b6ef1b0ab302d40800000000000000
+      internalID: 5557507501542239094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_9
+      rect:
+        serializedVersion: 2
+        x: 7417
+        y: 2498
+        width: 505
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b12203e7fd76ef0800000000000000
+      internalID: -114877532408243311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_10
+      rect:
+        serializedVersion: 2
+        x: 8110
+        y: 2480
+        width: 655
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1d515af90b63250800000000000000
+      internalID: 5924116559568425420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_11
+      rect:
+        serializedVersion: 2
+        x: 8787
+        y: 2498
+        width: 813
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fb8843d123cac50800000000000000
+      internalID: 6677767448500420505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1675
+        width: 581
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dee78389a5fad350800000000000000
+      internalID: 6042411958475943634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_13
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1657
+        width: 503
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac38ebb40c1d5d450800000000000000
+      internalID: 6113022693060019146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_14
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1750
+        width: 561
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d465bf4c00304310800000000000000
+      internalID: 1387161514665141462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_15
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 1846
+        width: 590
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388e57349d6dbc690800000000000000
+      internalID: -7580729319120050045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_16
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 1769
+        width: 552
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af0e7cf10c4f9ce0800000000000000
+      internalID: -1396313788046766167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_17
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 1732
+        width: 730
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3e79b0c50427cc0800000000000000
+      internalID: -3714835978551565326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_18
+      rect:
+        serializedVersion: 2
+        x: 5034
+        y: 1787
+        width: 563
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e11f75ae0eeefc60800000000000000
+      internalID: 7853976546854244836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_19
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 1834
+        width: 581
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e6334c470562a40800000000000000
+      internalID: 5343046470359805534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_20
+      rect:
+        serializedVersion: 2
+        x: 6572
+        y: 1694
+        width: 581
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324a376b6b31df8e0800000000000000
+      internalID: -1658147412336466909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_21
+      rect:
+        serializedVersion: 2
+        x: 7416
+        y: 1601
+        width: 524
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d766105f300b9770800000000000000
+      internalID: 8618482583830161366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_22
+      rect:
+        serializedVersion: 2
+        x: 8203
+        y: 1656
+        width: 562
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d186373e10bfbb060800000000000000
+      internalID: 6970440833815504925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_23
+      rect:
+        serializedVersion: 2
+        x: 8860
+        y: 1694
+        width: 693
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18c739198aafb580800000000000000
+      internalID: -8809134840303073254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 871
+        width: 600
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817ba70386d927b40800000000000000
+      internalID: 5436580771005118232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_25
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 872
+        width: 505
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bc4453faf7a9f40800000000000000
+      internalID: 5736037465899453259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_26
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 852
+        width: 561
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66b094e0c6d73270800000000000000
+      internalID: 8230282967999624812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_27
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 909
+        width: 467
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9eba3cda927d0050800000000000000
+      internalID: 5768392707176840860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_28
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 983
+        width: 634
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d0a305ff7551bf0800000000000000
+      internalID: -354280241604457081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_29
+      rect:
+        serializedVersion: 2
+        x: 4045
+        y: 945
+        width: 706
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081a9d4c4166d3690800000000000000
+      internalID: -7620822755053035136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_30
+      rect:
+        serializedVersion: 2
+        x: 4923
+        y: 983
+        width: 673
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23803b7db10272dd0800000000000000
+      internalID: -2511002963280721870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_31
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 927
+        width: 506
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf366999aab2fda0800000000000000
+      internalID: -5912458123198185540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_32
+      rect:
+        serializedVersion: 2
+        x: 6572
+        y: 816
+        width: 581
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e115a446a56ef21c0800000000000000
+      internalID: -4526145824580021986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_33
+      rect:
+        serializedVersion: 2
+        x: 7416
+        y: 814
+        width: 506
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ddd991c995aaa70800000000000000
+      internalID: 8838975745647566143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_34
+      rect:
+        serializedVersion: 2
+        x: 8128
+        y: 889
+        width: 562
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0de71dd88e24b40800000000000000
+      internalID: 5423152597110280370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_35
+      rect:
+        serializedVersion: 2
+        x: 8878
+        y: 908
+        width: 655
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9267b3eed0d50de0800000000000000
+      internalID: -1367457256115314018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_36
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 159
+        width: 299
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc699bfa6b260500800000000000000
+      internalID: 362024558537567486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_37
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 197
+        width: 431
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017928394edd466f0800000000000000
+      internalID: -692184468911122672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_38
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 271
+        width: 506
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47f688cc2ddc8180800000000000000
+      internalID: -9111664761664768181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_39
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 290
+        width: 447
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afdef9a4c6fe09e0800000000000000
+      internalID: -1653112688672317528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_40
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 234
+        width: 309
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31769760e8ab76100800000000000000
+      internalID: 101254635795867411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_41
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 215
+        width: 244
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6abf90405a182540800000000000000
+      internalID: 4983261919669369455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_42
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 206
+        width: 281
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8457eb30cddb3d0800000000000000
+      internalID: -3189151052470073166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_43
+      rect:
+        serializedVersion: 2
+        x: 5822
+        y: 290
+        width: 445
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b32ae776b472d70800000000000000
+      internalID: 9018259686710983482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_44
+      rect:
+        serializedVersion: 2
+        x: 6609
+        y: 271
+        width: 502
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a147b01fd1aa63fa0800000000000000
+      internalID: -5821278422754954214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_45
+      rect:
+        serializedVersion: 2
+        x: 7453
+        y: 197
+        width: 450
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c538bc70decfe6ce0800000000000000
+      internalID: -1409911538352159908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_46
+      rect:
+        serializedVersion: 2
+        x: 8297
+        y: 103
+        width: 337
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3795fab88ec73b20800000000000000
+      internalID: 3114184753997518652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-bird-animation-computer-icons-clip-art-bird-animation-5ab00841ee4df3.6224362315214858899761_47
+      rect:
+        serializedVersion: 2
+        x: 9075
+        y: 123
+        width: 253
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01f06125fa11c6c0800000000000000
+      internalID: -4124986143565352690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

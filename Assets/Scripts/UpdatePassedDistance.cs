@@ -21,6 +21,14 @@ public class UpdatePassedDistance : MonoBehaviour
 
     private void UpdatePlayerPosition()
     {
-        _textOfPlayerPosition.text = (playerPosition.position.y / DistanceDivider).ToString("f2") + " m";
+        if(playerPosition.position.y < 0)
+            _textOfPlayerPosition.text = 0 + " m";
+        else
+            _textOfPlayerPosition.text = (playerPosition.position.y / DistanceDivider).ToString("f2") + " m";
+    }
+
+    private void OnEnable()
+    {
+        playerPosition = LevelManager.instance.currentPlayer.transform;
     }
 }

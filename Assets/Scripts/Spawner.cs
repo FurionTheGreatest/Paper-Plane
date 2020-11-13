@@ -10,37 +10,43 @@ public class Spawner : MonoBehaviour
     public Transform playerPosition;
     [SerializeField] private GameObject _coinPrefab;
     [SerializeField] private GameObject _speedUpPrefab;
+    [SerializeField] private GameObject _enemyDronePrefab;
+    [SerializeField] private GameObject[] _birds;
     [SerializeField] private float _coinPositionToSpawn;
     [SerializeField] private float _speedUpPositionToSpawn;
+    [SerializeField] private float _dronePositionToSpawn;
+    [SerializeField] private float _birdPositionToSpawn;
     
     //currentPos + thisThresholdPos to spawn object
-    private const int AdditionalYPosSpawn = 15;
-
+    private const float AdditionalYPosSpawn = 15;
 
     private readonly float _xBound = 3.5f;
 
-    private float _coinRandomSpawnYValue = .1f;
+    private float _coinRandomSpawnYValue;
     
     private float _speedUpRandomSpawnYValue;
-    private float _minSpeedUpSpawnRange = 0.3f;
+    private float _minSpeedUpSpawnRange = 0.7f;
     private float _maxSpeedUpSpawnRange = 1f;
 
     private void Start()
     {
-        _coinPositionToSpawn = AdditionalYPosSpawn;
-        _speedUpPositionToSpawn = AdditionalYPosSpawn;
         InvokeRepeating(nameof(RandomForSpeedUpSpawn), 0, 1f);
     }
 
     private void Update()
     {
+        if(!LevelManager.instance.isPlaying) return;
         CheckForSpawn(_speedUpPrefab, out _speedUpPositionToSpawn,_speedUpPositionToSpawn, 
             1, AdditionalYPosSpawn);
         CheckForSpawn(_coinPrefab, out _coinPositionToSpawn,_coinPositionToSpawn, 
-            _coinRandomSpawnYValue, AdditionalYPosSpawn/2);
+            _coinRandomSpawnYValue, AdditionalYPosSpawn, false);
+        CheckForSpawn(_enemyDronePrefab, out _dronePositionToSpawn,_dronePositionToSpawn, 
+            1, 150, false);
+        CheckForSpawn(_birds[Random.Range(0,_birds.Length-1)], out _birdPositionToSpawn,_birdPositionToSpawn, 
+            1, 75, false);
     }
 
-    private void SpawnObject(GameObject objectToSpawn, float spawnPosition, int addSpawnThreshold)
+    private void SpawnObject(GameObject objectToSpawn, float spawnPosition, float addSpawnThreshold)
     {
         var randomXPosition = Random.Range(-_xBound, _xBound);
         var yPosition = spawnPosition + addSpawnThreshold;
@@ -48,19 +54,33 @@ public class Spawner : MonoBehaviour
         var instantiatedGo = Instantiate(objectToSpawn, objectSpawnPosition, quaternion.identity, gameObject.transform);
     }
 
-    private void CheckForSpawn(GameObject prefab, out float newSpawnPosition, float oldSpawnPosition, float limit, int addSpawnThreshold)
+    private void CheckForSpawn(GameObject prefab, out float newSpawnPosition, float oldSpawnPosition, float limit, float addSpawnThreshold, bool isStaticSpawnRange = true)
     {
-        if (!(playerPosition.position.y / oldSpawnPosition > limit))
+        if (playerPosition.position.y / oldSpawnPosition > limit)//.7f
+        {
+            //Debug.Log(playerPosition.position.y+ "/" +oldSpawnPosition + ">" + limit);
+            newSpawnPosition = isStaticSpawnRange ? oldSpawnPosition + addSpawnThreshold :oldSpawnPosition + Random.Range(0, addSpawnThreshold);
+
+            SpawnObject(prefab,oldSpawnPosition,addSpawnThreshold);
+        }
+        else
         {
             newSpawnPosition = oldSpawnPosition;
-            return;
         }
-        SpawnObject(prefab, oldSpawnPosition, addSpawnThreshold);
-        newSpawnPosition = oldSpawnPosition + AdditionalYPosSpawn;
     }
 
     private void RandomForSpeedUpSpawn()
     {
         _coinRandomSpawnYValue = Random.Range(_minSpeedUpSpawnRange, _maxSpeedUpSpawnRange);
+    }
+
+    private void OnEnable()
+    {
+        playerPosition = LevelManager.instance.currentPlayer.transform;
+        
+        _coinPositionToSpawn = 0;
+        _speedUpPositionToSpawn = 0;
+        _dronePositionToSpawn = 0;
+        _birdPositionToSpawn = 0;
     }
 }
