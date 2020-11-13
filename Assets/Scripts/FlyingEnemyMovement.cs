@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DroneMovement : MonoBehaviour
+public class FlyingEnemyMovement : MonoBehaviour
 {
     private Transform _dronePosition;
-    [SerializeField] private float droneSpeed = 2;
+    [SerializeField] private float enemySpeed = 2;
 
     private void Start()
     {
@@ -15,6 +15,6 @@ public class DroneMovement : MonoBehaviour
 
     private void Update()
     {
-        _dronePosition.position += transform.TransformDirection(Vector3.down * (Time.deltaTime * droneSpeed));
+        _dronePosition.position += transform.TransformDirection(Vector3.down * (Time.deltaTime * enemySpeed));
     }
 }

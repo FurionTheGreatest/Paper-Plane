@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1598680609}
   - component: {fileID: 1598680611}
   - component: {fileID: 1598680610}
+  - component: {fileID: 4668383370262789798}
   m_Layer: 0
   m_Name: Drone
   m_TagString: Untagged
@@ -128,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f0fe4ff12d0e249b51e1737b448bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droneSpeed: 2
+  enemySpeed: 3
 --- !u!114 &1598680611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,8 +146,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1598680610}
-        m_TargetAssemblyTypeName: DroneCollision, Assembly-CSharp
-        m_MethodName: OnDroneCollision
+        m_TargetAssemblyTypeName: FlyingEnemyCollision, Assembly-CSharp
+        m_MethodName: OnEnemyCollision
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -168,6 +169,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c6bda08b8ddad1489cb81605d9595c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4668383370262789798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534573742977449635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc0ced1eb3b84d46b719991bb184a91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroying: 1
 --- !u!1001 &534573742718107549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -362,6 +376,10 @@ PrefabInstance:
     - target: {fileID: 19845762, guid: 1baa669d2b5a11947850529791c55958, type: 3}
       propertyPath: InitialModule.gravityModifier.scalar
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19845762, guid: 1baa669d2b5a11947850529791c55958, type: 3}
+      propertyPath: prewarm
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19996108, guid: 1baa669d2b5a11947850529791c55958, type: 3}
       propertyPath: m_RenderMode
@@ -585,6 +603,10 @@ PrefabInstance:
       propertyPath: InitialModule.gravityModifier.scalar
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 19845762, guid: 1baa669d2b5a11947850529791c55958, type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 19996108, guid: 1baa669d2b5a11947850529791c55958, type: 3}
       propertyPath: m_RenderMode
       value: 3
@@ -807,6 +829,10 @@ PrefabInstance:
       propertyPath: InitialModule.gravityModifier.scalar
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 19845762, guid: 1baa669d2b5a11947850529791c55958, type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 19996108, guid: 1baa669d2b5a11947850529791c55958, type: 3}
       propertyPath: m_RenderMode
       value: 3
@@ -1028,6 +1054,10 @@ PrefabInstance:
     - target: {fileID: 19845762, guid: 1baa669d2b5a11947850529791c55958, type: 3}
       propertyPath: InitialModule.gravityModifier.scalar
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19845762, guid: 1baa669d2b5a11947850529791c55958, type: 3}
+      propertyPath: prewarm
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19996108, guid: 1baa669d2b5a11947850529791c55958, type: 3}
       propertyPath: m_RenderMode

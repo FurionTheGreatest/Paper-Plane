@@ -1,11 +1,11 @@
 ﻿using System;
 using UnityEngine;
 
-public class DroneCollision : MonoBehaviour
+public class FlyingEnemyCollision : MonoBehaviour
 {
     public static Action onEnemyCollision;
 
-    public void OnDroneCollision()
+    public void OnEnemyCollision()
     {
         onEnemyCollision?.Invoke();
     }
