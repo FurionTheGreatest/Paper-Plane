@@ -42,7 +42,7 @@ public class Spawner : MonoBehaviour
             _coinRandomSpawnYValue, AdditionalYPosSpawn, false);
         CheckForSpawn(_enemyDronePrefab, out _dronePositionToSpawn,_dronePositionToSpawn, 
             1, 150, false);
-        CheckForSpawn(_birds[Random.Range(0,_birds.Length-1)], out _birdPositionToSpawn,_birdPositionToSpawn, 
+        CheckForSpawn(_birds[Random.Range(0,_birds.Length)], out _birdPositionToSpawn,_birdPositionToSpawn, 
             1, 75, false);
     }
 
@@ -51,7 +51,7 @@ public class Spawner : MonoBehaviour
         var randomXPosition = Random.Range(-_xBound, _xBound);
         var yPosition = spawnPosition + addSpawnThreshold;
         var objectSpawnPosition = new Vector3(randomXPosition, yPosition, 1);
-        var instantiatedGo = Instantiate(objectToSpawn, objectSpawnPosition, quaternion.identity, gameObject.transform);
+        Pooler.Spawn(objectToSpawn, objectSpawnPosition, quaternion.identity);
     }
 
     private void CheckForSpawn(GameObject prefab, out float newSpawnPosition, float oldSpawnPosition, float limit, float addSpawnThreshold, bool isStaticSpawnRange = true)

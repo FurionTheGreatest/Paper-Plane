@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8429708773289659980, guid: 697c5f371030d4a498a6c052b32a5710, type: 3}
       propertyPath: m_Name
-      value: BigBird
+      value: BigBird Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8429708773289659982, guid: 697c5f371030d4a498a6c052b32a5710, type: 3}
       propertyPath: m_LocalPosition.x

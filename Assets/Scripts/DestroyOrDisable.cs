@@ -13,10 +13,11 @@ public class DestroyOrDisable : MonoBehaviour
 
     private void CheckForDestroyOrDisable()
     {
-        if (!(gameObject.transform.position.y - LevelManager.instance.currentPlayer.transform.position.y <
+        if (LevelManager.instance.currentPlayer.Equals(null) || !(gameObject.transform.position.y - LevelManager.instance.currentPlayer.transform.position.y <
               _lowerTreshold)) return;
+        
         if (isDestroying)
             Destroy(gameObject);
-        else gameObject.SetActive(false);
+        else Pooler.Despawn(gameObject);
     }
 }
