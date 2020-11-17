@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public static class Pooler
 {
     private static Dictionary<string,Pool> pools = new Dictionary<string, Pool>();
 
-    public static void Spawn(GameObject prefab, Vector3 position, Quaternion rotation)
+    public static GameObject Spawn(GameObject prefab, Vector3 position, Quaternion rotation)
     {
         GameObject obj;
         var key = prefab.name.Replace("(Clone)", "");
@@ -15,7 +16,7 @@ public static class Pooler
         {
             if (pools[key].inactive.Count == 0)
             {
-                Object.Instantiate(prefab, position, rotation,pools[key].parent.transform);
+                obj = Object.Instantiate(prefab, position, rotation,pools[key].parent.transform);
             }
             else
             {
@@ -28,10 +29,12 @@ public static class Pooler
         else
         {
             GameObject newParent = new GameObject($"{key}_POOL");
-            Object.Instantiate(prefab, position, rotation, newParent.transform);
+            obj = Object.Instantiate(prefab, position, rotation, newParent.transform);
             Pool newPool = new Pool(newParent);
             pools.Add(key,newPool);
         }
+
+        return obj;
     }
     
     public static void Despawn(GameObject prefab)
@@ -53,6 +56,16 @@ public static class Pooler
             pools.Add(key,newPool);
             pools[key].inactive.Push(prefab);
             prefab.SetActive(false);
+        }
+    }
+
+    public static void DestroyPools()
+    {
+        foreach (var pool in pools.ToList())
+        {
+            Debug.Log(pool.Key + " "+ pool.Value);
+            pools.Remove(pool.Key);
+            Object.Destroy(GameObject.Find($"{pool.Key}_POOL"));
         }
     }
 }

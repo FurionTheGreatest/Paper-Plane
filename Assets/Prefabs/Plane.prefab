@@ -132,7 +132,7 @@ MonoBehaviour:
   maxEnergy: 100
   currentEnergy: 0
   decreaseEnergyValue: 0.5
-  increaseEnergyValue: 15
+  increaseEnergyValue: 25
 --- !u!50 &1071212682293596393
 Rigidbody2D:
   serializedVersion: 4

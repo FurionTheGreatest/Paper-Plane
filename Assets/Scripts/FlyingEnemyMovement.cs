@@ -6,7 +6,7 @@ using UnityEngine;
 public class FlyingEnemyMovement : MonoBehaviour
 {
     private Transform _dronePosition;
-    [SerializeField] private float enemySpeed = 2;
+    public float enemySpeed = 2;
 
     private void Start()
     {

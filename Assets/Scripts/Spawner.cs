@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using static Pooler;
 using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
@@ -19,6 +20,7 @@ public class Spawner : MonoBehaviour
     
     //currentPos + thisThresholdPos to spawn object
     private const float AdditionalYPosSpawn = 15;
+    [SerializeField] private float _speedUpBoostSpawned = 0;
 
     private readonly float _xBound = 3.5f;
 
@@ -41,9 +43,9 @@ public class Spawner : MonoBehaviour
         CheckForSpawn(_coinPrefab, out _coinPositionToSpawn,_coinPositionToSpawn, 
             _coinRandomSpawnYValue, AdditionalYPosSpawn, false);
         CheckForSpawn(_enemyDronePrefab, out _dronePositionToSpawn,_dronePositionToSpawn, 
-            1, 150, false);
+            1, 100, false);
         CheckForSpawn(_birds[Random.Range(0,_birds.Length)], out _birdPositionToSpawn,_birdPositionToSpawn, 
-            1, 75, false);
+            1, 50, false);
     }
 
     private void SpawnObject(GameObject objectToSpawn, float spawnPosition, float addSpawnThreshold)
@@ -51,15 +53,27 @@ public class Spawner : MonoBehaviour
         var randomXPosition = Random.Range(-_xBound, _xBound);
         var yPosition = spawnPosition + addSpawnThreshold;
         var objectSpawnPosition = new Vector3(randomXPosition, yPosition, 1);
-        Pooler.Spawn(objectToSpawn, objectSpawnPosition, quaternion.identity);
+
+        var instance = Spawn(objectToSpawn, objectSpawnPosition, quaternion.identity);
+        var movement = instance.GetComponent<FlyingEnemyMovement>();
+        if (movement != null)
+        {
+            movement.enemySpeed += _speedUpBoostSpawned / 10;
+            _speedUpBoostSpawned-=.45f;
+        }
     }
 
     private void CheckForSpawn(GameObject prefab, out float newSpawnPosition, float oldSpawnPosition, float limit, float addSpawnThreshold, bool isStaticSpawnRange = true)
     {
         if (playerPosition.position.y / oldSpawnPosition > limit)//.7f
         {
-            //Debug.Log(playerPosition.position.y+ "/" +oldSpawnPosition + ">" + limit);
-            newSpawnPosition = isStaticSpawnRange ? oldSpawnPosition + addSpawnThreshold :oldSpawnPosition + Random.Range(0, addSpawnThreshold);
+            if (isStaticSpawnRange)
+            {
+                newSpawnPosition = oldSpawnPosition + addSpawnThreshold + _speedUpBoostSpawned;
+                _speedUpBoostSpawned+=.5f;
+            } 
+            else
+                newSpawnPosition = oldSpawnPosition + Random.Range(0, addSpawnThreshold);
 
             SpawnObject(prefab,oldSpawnPosition,addSpawnThreshold);
         }
@@ -82,5 +96,7 @@ public class Spawner : MonoBehaviour
         _speedUpPositionToSpawn = 0;
         _dronePositionToSpawn = 0;
         _birdPositionToSpawn = 0;
+        
+        DestroyPools();
     }
 }

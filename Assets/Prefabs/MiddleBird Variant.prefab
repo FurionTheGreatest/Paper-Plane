@@ -67,5 +67,9 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
+    - target: {fileID: 5108619020424411782, guid: 9958171c29330f74cbb858d9995cfd65, type: 3}
+      propertyPath: enemySpeed
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9958171c29330f74cbb858d9995cfd65, type: 3}
