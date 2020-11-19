@@ -261,5 +261,17 @@ PrefabInstance:
       propertyPath: ShapeModule.radiusThickness
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 19843866, guid: 96d1f7f36a35fd0479c7f659b1e1355e, type: 3}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19843866, guid: 96d1f7f36a35fd0479c7f659b1e1355e, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19843866, guid: 96d1f7f36a35fd0479c7f659b1e1355e, type: 3}
+      propertyPath: cullingMode
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96d1f7f36a35fd0479c7f659b1e1355e, type: 3}

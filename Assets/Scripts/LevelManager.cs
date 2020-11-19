@@ -74,6 +74,7 @@ public class LevelManager : MonoBehaviour
     public void BackToMenu()
     {
         SwitchUI(false);
+        currentPlayer.GetComponent<PlaneFlyEnergy>().DisableEnergyInvocation();
         _scriptsEnabler.enabled = false;
         isPlaying = false;
     }

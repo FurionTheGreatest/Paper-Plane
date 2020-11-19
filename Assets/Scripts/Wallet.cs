@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.GameFoundation;
 using UnityEngine.GameFoundation.DefaultLayers;
@@ -11,7 +12,9 @@ using UnityEngine.GameFoundation.Sample;
 public class Wallet : MonoBehaviour
 {
     public const int k_InitialQuantity = 50;
+    public TMP_Text coinUiValue;
     private const string CoinName = "coin";
+    
     private bool m_SubscribedFlag = false;
     private bool m_WalletChanged;
 
@@ -63,12 +66,7 @@ public class Wallet : MonoBehaviour
         if (!success)
         {
             Debug.LogError($"Failed in setting a new value for '{m_CoinDefinition.displayName}'");
-            return;
         }
-
-        var newBalance = GameFoundationSdk.wallet.Get(m_CoinDefinition);
-
-        Debug.Log($"The new balance of '{m_CoinDefinition.displayName}' is {newBalance.ToString()}");
     }
     
     public void RemoveCurrency(int value)
@@ -78,19 +76,7 @@ public class Wallet : MonoBehaviour
         if (!success)
         {
             Debug.LogError($"Failed in setting a new value for '{m_CoinDefinition.displayName}'");
-            return;
         }
-
-        var newBalance = GameFoundationSdk.wallet.Get(m_CoinDefinition);
-
-        Debug.Log($"The new balance of '{m_CoinDefinition.displayName}' is {newBalance.ToString()}");
-    }
-
-    [ContextMenu("test")]
-    public void Test()
-    {
-        AddCurrency(100);
-        RemoveCurrency(101);
     }
     
     private void OnGameFoundationInitialized()
@@ -103,7 +89,7 @@ public class Wallet : MonoBehaviour
     
 
         // Show list of currencies and update the button interactability.
-        //RefreshUI();
+        RefreshUI();
 
         // Ensure that the wallet changed callback is connected
         SubscribeToGameFoundationEvents();
@@ -115,15 +101,10 @@ public class Wallet : MonoBehaviour
     }
     private void RefreshUI()
     {
-        /*m_DisplayText.Clear();
-        m_DisplayText.AppendLine("<b><i>Wallet:</i></b>");
-            
         var coinBalance = GameFoundationSdk.wallet.Get(m_CoinDefinition);
-        m_DisplayText.AppendLine($"Currency - {m_CoinDefinition.displayName}: {coinBalance.ToString()}");
 
-        mainText.text = m_DisplayText.ToString();
+        coinUiValue.text = coinBalance.ToString();
 
-        RefreshLoseCoinsButton();*/
         _persistenceDataLayer.Save();
     }
     

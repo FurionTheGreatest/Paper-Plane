@@ -6,25 +6,20 @@ using UnityEngine;
 
 public class CoinCollector : MonoBehaviour
 {
-    private TMP_Text _coinCountText;
-    [SerializeField] private int _coinCount;
+    private Wallet _wallet;
 
     private void Awake()
     {
-        _coinCountText = GetComponent<TMP_Text>();
-        _coinCount = 0;
+        _wallet = FindObjectOfType<Wallet>();
     }
 
     private void CollectCoin()
     {
-        _coinCount++;
-        _coinCountText.text = _coinCount.ToString();
+        _wallet.AddCurrency(1);
     }
 
     private void OnEnable()
     {
-        _coinCount = 0;
-        _coinCountText.text = _coinCount.ToString();
         CoinPickUp.OnCoinCollect += CollectCoin;
     }
 

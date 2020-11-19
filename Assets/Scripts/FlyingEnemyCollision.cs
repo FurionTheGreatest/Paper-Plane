@@ -7,6 +7,7 @@ public class FlyingEnemyCollision : MonoBehaviour
 
     public void OnEnemyCollision()
     {
-        onEnemyCollision?.Invoke();
+        if(LevelManager.instance.isPlaying)
+            onEnemyCollision?.Invoke();
     }
 }

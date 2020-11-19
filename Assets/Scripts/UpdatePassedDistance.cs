@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
 
 public class UpdatePassedDistance : MonoBehaviour
@@ -14,11 +15,6 @@ public class UpdatePassedDistance : MonoBehaviour
         _textOfPlayerPosition = GetComponent<TMP_Text>();
     }
 
-    private void Start()
-    {
-        InvokeRepeating(nameof(UpdatePlayerPosition),2f,1/2f);
-    }
-
     private void UpdatePlayerPosition()
     {
         if(playerPosition.position.y < 0)
@@ -27,8 +23,21 @@ public class UpdatePassedDistance : MonoBehaviour
             _textOfPlayerPosition.text = (playerPosition.position.y / DistanceDivider).ToString("f2") + " m";
     }
 
+    private void DisableUpdatingPlayerPosition()
+    {
+        CancelInvoke(nameof(UpdatePlayerPosition));
+    }
+
     private void OnEnable()
     {
         playerPosition = LevelManager.instance.currentPlayer.transform;
+        _textOfPlayerPosition.text = 0 + " m";
+
+        InvokeRepeating(nameof(UpdatePlayerPosition),2f,1/2f);
+    }
+
+    private void OnDisable()
+    {
+        DisableUpdatingPlayerPosition();
     }
 }
