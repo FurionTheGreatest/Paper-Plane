@@ -6,6 +6,7 @@ public class PlaneMovement : MonoBehaviour
 {
     [SerializeField] private float _currentSpeed;
     [SerializeField] private float defaultSpeed = 3;
+    [SerializeField] private float sideSpeed = 4;
     [SerializeField] private float forceSpeed = 8;
     private Transform _planePosition;
 
@@ -24,11 +25,11 @@ public class PlaneMovement : MonoBehaviour
 #if UNITY_EDITOR || UNITY_STANDALONE
         if (Input.GetKey (KeyCode.A) && !Input.GetKey (KeyCode.D) && transform.position.x > -4f)
         {
-            _planePosition.position += transform.TransformDirection (Vector3.left) * (Time.deltaTime * defaultSpeed);
+            _planePosition.position += transform.TransformDirection (Vector3.left) * (Time.deltaTime * sideSpeed);
         } 
         else if (Input.GetKey (KeyCode.D) && !Input.GetKey (KeyCode.A) && transform.position.x < 4f)
         {
-            _planePosition.position -= transform.TransformDirection (Vector3.left) * (Time.deltaTime * defaultSpeed);
+            _planePosition.position -= transform.TransformDirection (Vector3.left) * (Time.deltaTime * sideSpeed);
         }
 #endif
         
@@ -36,11 +37,11 @@ public class PlaneMovement : MonoBehaviour
         if(!Input.touchSupported) return;
         if (Input.touches[0].position.x - _halfOfScreenWidth <= 0 && transform.position.x > -4f)
         {
-            _planePosition.position += transform.TransformDirection (Vector3.left) * (Time.deltaTime * defaultSpeed);
+            _planePosition.position += transform.TransformDirection (Vector3.left) * (Time.deltaTime * sideSpeed);
         } 
         else if (Input.touches[0].position.x - _halfOfScreenWidth > 0 && transform.position.x < 4f)
         {
-            _planePosition.position -= transform.TransformDirection (Vector3.left) * (Time.deltaTime * defaultSpeed);
+            _planePosition.position -= transform.TransformDirection (Vector3.left) * (Time.deltaTime * sideSpeed);
         }
 #endif
     }
