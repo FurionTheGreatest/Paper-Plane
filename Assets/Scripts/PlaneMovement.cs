@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 
 public class PlaneMovement : MonoBehaviour
 {
@@ -10,13 +11,12 @@ public class PlaneMovement : MonoBehaviour
     [SerializeField] private float forceSpeed = 8;
     private Transform _planePosition;
 
-    private float _halfOfScreenWidth;
+    private float _minNoFlickValue = 0.1f;
 
     private void Start()
     {
         _planePosition = transform;
         _currentSpeed = defaultSpeed;
-        _halfOfScreenWidth = Screen.width / 2;
     }
 
     private void Update()
@@ -29,19 +29,24 @@ public class PlaneMovement : MonoBehaviour
         } 
         else if (Input.GetKey (KeyCode.D) && !Input.GetKey (KeyCode.A) && transform.position.x < 4f)
         {
-            _planePosition.position -= transform.TransformDirection (Vector3.left) * (Time.deltaTime * sideSpeed);
+            _planePosition.position += transform.TransformDirection (Vector3.right) * (Time.deltaTime * sideSpeed);
         }
 #endif
         
 #if UNITY_ANDROID
         if(!Input.touchSupported) return;
-        if (Input.touches[0].position.x - _halfOfScreenWidth <= 0 && transform.position.x > -4f)
+        
+        var touchWorldPosition = Camera.main.ScreenToWorldPoint(Input.touches[0].position);
+        
+        if (Mathf.Abs(touchWorldPosition.x - _planePosition.position.x) < _minNoFlickValue) return;
+        
+        if ( touchWorldPosition.x <= _planePosition.position.x  && transform.position.x > -4f)
         {
             _planePosition.position += transform.TransformDirection (Vector3.left) * (Time.deltaTime * sideSpeed);
         } 
-        else if (Input.touches[0].position.x - _halfOfScreenWidth > 0 && transform.position.x < 4f)
+        else if (touchWorldPosition.x > _planePosition.position.x && transform.position.x < 4f)
         {
-            _planePosition.position -= transform.TransformDirection (Vector3.left) * (Time.deltaTime * sideSpeed);
+            _planePosition.position += transform.TransformDirection (Vector3.right) * (Time.deltaTime * sideSpeed);
         }
 #endif
     }
